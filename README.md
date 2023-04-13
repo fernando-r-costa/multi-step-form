@@ -31,7 +31,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-<!-- - Site URL: [E-commerce page](https://e-commerce-page-lovat.vercel.app/) -->
+- Site URL: [Formulário multi-etapas](https://multi-step-form-eight-alpha.vercel.app/)
 
 ## Meu processo
 
@@ -46,5 +46,6 @@ Os usuários devem ser capazes de:
 ## Autor
 
 ![](./assets/images/FRC.gif)
+<img src="./assets/images/FRC.gif" width=100px>
 
 - LinkedIn - [Fernando R Costa](https://www.linkedin.com/in/fernando-r-costa/)
