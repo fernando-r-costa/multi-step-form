@@ -1,14 +1,14 @@
 :root {
---marine-blue: hsl(213, 96%, 18%);
---purplish-blue: hsl(243, 100%, 62%);
---pastel-blue: hsl(228, 100%, 84%);
---light-blue: hsl(206, 94%, 87%);
---strawberry-red: hsl(354, 84%, 57%);
---cool-gray: hsl(231, 11%, 63%);
---light-gray: hsl(229, 24%, 87%);
---magnolia: hsl(217, 100%, 97%);
---alabaster: hsl(231, 100%, 99%);
---white: hsl(0, 0%, 100%);
+  --marine-blue: hsl(213, 96%, 18%);
+  --purplish-blue: hsl(243, 100%, 62%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --light-blue: hsl(206, 94%, 87%);
+  --strawberry-red: hsl(354, 84%, 57%);
+  --cool-gray: hsl(231, 11%, 63%);
+  --light-gray: hsl(229, 24%, 87%);
+  --magnolia: hsl(217, 100%, 97%);
+  --alabaster: hsl(231, 100%, 99%);
+  --white: hsl(0, 0%, 100%);
 }
 
 html {
@@ -18,14 +18,110 @@ html {
 
 body {
   width: 100vw;
-  height: 48vw;
-  /* overflow: hidden; */
-  background-color: rgb(189, 187, 178);
-  background-image: url(../images/background.jpg);
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-position: center;
+  /* height: 48vw; */
+  overflow: hidden;
+  background-color: var(--magnolia);
 }
+
+.container {
+  margin: calc((100vh - 44rem)/2) calc((100vw - 73rem)/2);
+  margin-bottom: 10rem;
+  background-color: var(--alabaster);
+  border-radius: 1rem;
+}
+
+.container-sidebar {
+  display: flex;
+  margin: auto;
+  background-image: url(../images/bg-sidebar-desktop.svg);
+  background-size: 99%;
+  background-repeat: no-repeat;
+}
+
+#selecao-etapa1 {
+  background-color: var(--light-blue);
+  color: var(--purplish-blue);
+  border-color: var(--light-blue);
+}
+
+.selecao {
+  color: var(--magnolia);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  width: 1rem;
+  margin: auto 2.5rem;
+  padding: 0.7rem;
+  border: solid 0.2rem var(--cool-gray);
+  border-radius: 10rem;
+}
+
+.titulo {
+  text-transform: uppercase;
+  color: var(--cool-gray);
+  font-weight: 700;
+  margin: 1rem 0 0 0;
+}
+
+.info {
+  text-transform: uppercase;
+  color: var(--magnolia);
+  font-weight: 700;
+  margin: 0.5rem 0 0 0;
+}
+
+.tit-form {
+  color: var(--marine-blue);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 3.6rem 0 0 0;
+}
+
+.info-form {
+  color: var(--cool-gray);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1rem 0 0 0;
+}
+
+.tit-input {
+  color: var(--marine-blue);
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0.1rem 0 0 0;
+}
+
+.erro-input {
+  color: var(--strawberry-red);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0.1rem 0 0 6rem;
+}
+
+.campo-input {
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 1.5rem;
+  font-size: 1.4rem;
+  border: solid 0.2rem var(--light-gray);
+  color: var(--light-gray);
+}
+
+.button-proxima {
+  width: 11rem;
+  height: 4rem;
+  margin: 4rem 0 0 7rem;
+  border-radius: 1rem;
+  background-color: var(--marine-blue);
+  color: var(--light-blue);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+
+
+
 
 .attribution {
   font-size: 1rem;

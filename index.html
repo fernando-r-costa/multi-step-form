@@ -12,114 +12,127 @@
 
   <link rel="stylesheet" href="./assets/style/reset.css">
   <link rel="stylesheet" href="./assets/style/style.css">
+  <link rel="stylesheet" href="./assets/style/style-grid.css">
 
   <link rel="icon" type="image/gif" sizes="32x32" href="./assets/images/FRC.gif">
   <title>Formulário multi etapas</title>
 </head>
 
 <body>
+  <div class="container">
 
-  <!-- Sidebar start -->
+    <div class="container-sidebar">
+      <div class="container-etapas">
+        <div class="selecao" id="selecao-etapa1">1</div>
+        <div class="selecao" id="selecao-etapa2">2</div>
+        <div class="selecao" id="selecao-etapa3">3</div>
+        <div class="selecao" id="selecao-etapa4">4</div>
+        <div class="titulo" id="titulo-etapa1">Etapa 1</div>
+        <div class="info" id="info-etapa1">Suas informações </div>
+        <div class="titulo" id="titulo-etapa2">Etapa 2</div>
+        <div class="info" id="info-etapa2">Selecione um plano </div>
+        <div class="titulo" id="titulo-etapa3">Etapa 3</div>
+        <div class="info" id="info-etapa3">Adicionais</div>
+        <div class="titulo" id="titulo-etapa4">Etapa 4</div>
+        <div class="info" id="info-etapa4">Resumo</div>
+      </div>
+    </div>
 
-  Step 1
-  Your info
+    <div class="container-formulario">
+      <div class="formulario-etapa1">
+        <div class="tit-form" id="tit-form-etapa1">Informações Pessoais</div>
+        <div class="info-form" id="info-form-etapa1">Por favor informe seu nome, email e telefone.</div>
+        <div class="tit-input" id="nome-form-etapa1">Nome</div>
+        <div class="erro-input" id="erro-nome-form-etapa1"></div>
+        <input type="text" class="campo-input" id="input-nome-form-etapa1" value="Stephen King">
+        <div class="tit-input" id="email-form-etapa1">Email</div>
+        <div class="erro-input" id="erro-email-form-etapa1"></div>
+        <input type="email" class="campo-input" id="input-email-form-etapa1" value="stephenking@lorem.com">
+        <div class="tit-input" id="telefone-form-etapa1">Telefone</div>
+        <div class="erro-input" id="erro-telefone-form-etapa1"></div>
+        <input type="tel" class="campo-input" id="input-telefone-form-etapa1" value="(12)12345-7890">
+        <button class="button-proxima" id="but-prox-etapa1">Próxima</button>
+      </div>
 
-  Step 2
-  Select plan
+      <div class="parent">
+        <div class="div1"> </div>
+        <div class="div2"> </div>
+        <div class="div3"> </div>
+        <div class="div4"> </div>
+        <div class="div5"> </div>
+        <div class="div6"> </div>
+      </div>
 
-  Step 3
-  Add-ons
+      <!-- Step 2 start -->
 
-  Step 4
-  Summary
+      <!-- Select your plan -->
+      <!-- You have the option of monthly or yearly billing. -->
 
-  <!-- Sidebar end -->
+      <!-- Arcade -->
+      <!-- $9/mo -->
 
-  <!-- Step 1 start -->
+      <!-- Advanced -->
+      <!-- $12/mo -->
 
-  Personal info
-  Please provide your name, email address, and phone number.
+      <!-- Pro -->
+      <!-- $15/mo -->
 
-  Name
-  e.g. Stephen King
+      <!-- Monthly -->
+      <!-- Yearly -->
 
-  Email Address
-  e.g. stephenking@lorem.com
+      <!-- Go Back -->
+      <!-- Next Step -->
 
-  Phone Number
-  e.g. +1 234 567 890
+      <!-- Step 2 end -->
 
-  Next Step
+      <!-- Step 3 start -->
 
-  <!-- Step 1 end -->
+      <!-- Pick add-ons
+      Add-ons help enhance your gaming experience.
 
-  <!-- Step 2 start -->
+      Online service
+      Access to multiplayer games
+      +$1/mo
 
-  Select your plan
-  You have the option of monthly or yearly billing.
+      Larger storage
+      Extra 1TB of cloud save
+      +$2/mo
 
-  Arcade
-  $9/mo
+      Customizable Profile
+      Custom theme on your profile
+      +$2/mo
 
-  Advanced
-  $12/mo
+      Go Back
+      Next Step -->
 
-  Pro
-  $15/mo
+      <!-- Step 3 end -->
 
-  Monthly
-  Yearly
+      <!-- Step 4 start -->
 
-  Go Back
-  Next Step
+      <!-- Finishing up
+      Double-check everything looks OK before confirming. -->
 
-  <!-- Step 2 end -->
+      <!-- Dynamically add subscription and add-on selections here -->
 
-  <!-- Step 3 start -->
+      <!-- Total (per month/year)
 
-  Pick add-ons
-  Add-ons help enhance your gaming experience.
+      Go Back
+      Confirm -->
 
-  Online service
-  Access to multiplayer games
-  +$1/mo
+      <!-- Step 4 end -->
 
-  Larger storage
-  Extra 1TB of cloud save
-  +$2/mo
+      <!-- Step 5 start -->
 
-  Customizable Profile
-  Custom theme on your profile
-  +$2/mo
+      <!-- Thank you!
 
-  Go Back
-  Next Step
+      Thanks for confirming your subscription! We hope you have fun
+      using our platform. If you ever need support, please feel free
+      to email us at support@loremgaming.com. -->
 
-  <!-- Step 3 end -->
+      <!-- Step 5 end -->
+    </div>
+  </div>
 
-  <!-- Step 4 start -->
-
-  Finishing up
-  Double-check everything looks OK before confirming.
-
-  <!-- Dynamically add subscription and add-on selections here -->
-
-  Total (per month/year)
-
-  Go Back
-  Confirm
-
-  <!-- Step 4 end -->
-
-  <!-- Step 5 start -->
-
-  Thank you!
-
-  Thanks for confirming your subscription! We hope you have fun
-  using our platform. If you ever need support, please feel free
-  to email us at support@loremgaming.com.
-
-  <!-- Step 5 end -->
 </body>
 
 <footer>

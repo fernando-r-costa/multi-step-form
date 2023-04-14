@@ -35,17 +35,16 @@ Os usuários devem ser capazes de:
 
 ## Meu processo
 
-- [ ] Desktop-design
-- [ ] Etapa 1
+- [x] Etapa 1
 - [ ] Etapa 2
 - [ ] Etapa 2
 - [ ] Etapa 4
+- [ ] Desktop-design
 - [ ] Validação
 - [ ] Mobile-design
 
 ## Autor
 
-![](./assets/images/FRC.gif)
-<img src="./assets/images/FRC.gif" width=100px>
+<img src="./assets/images/FRC.gif" width=120px>
 
 - LinkedIn - [Fernando R Costa](https://www.linkedin.com/in/fernando-r-costa/)
