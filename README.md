@@ -36,7 +36,7 @@ Os usuários devem ser capazes de:
 ## Meu processo
 
 - [x] Etapa 1
-- [ ] Etapa 2
+- [x] Etapa 2
 - [ ] Etapa 2
 - [ ] Etapa 4
 - [ ] Desktop-design
