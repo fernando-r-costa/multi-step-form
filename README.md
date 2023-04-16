@@ -37,10 +37,13 @@ Os usuários devem ser capazes de:
 
 - [x] Etapa 1
 - [x] Etapa 2
-- [ ] Etapa 2
-- [ ] Etapa 4
-- [ ] Desktop-design
+- [x] Etapa 3
+- [x] Etapa 4
+- [x] Final
+- [x] Desktop-design
 - [ ] Validação
+- [ ] Estados-ativos
+- [ ] Mudança valores
 - [ ] Mobile-design
 
 ## Autor

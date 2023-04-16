@@ -19,14 +19,14 @@ html {
 body {
   width: 100vw;
   /* height: 48vw; */
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: var(--magnolia);
 }
 
 
 .container {
   margin: calc((100vh - 44rem)/2) calc((100vw - 73rem)/2);
-  margin-bottom: 10rem;
+  margin-bottom: 1rem;
   background-color: var(--alabaster);
   border-radius: 1rem;
 }
@@ -96,7 +96,8 @@ body {
   color: var(--strawberry-red);
   font-size: 1.3rem;
   font-weight: 600;
-  margin: 0.1rem 0 0 6rem;
+  text-align: right;
+  margin: 0.1rem 0 0 0rem;
 }
 
 .campo-input {
@@ -105,6 +106,11 @@ body {
   height: 1.5rem;
   font-size: 1.4rem;
   border: solid 0.2rem var(--light-gray);
+  color: var(--marine-blue);
+  font-weight: 600;
+}
+
+.campo-input::placeholder {
   color: var(--light-gray);
 }
 
@@ -129,6 +135,18 @@ body {
   color: var(--cool-gray);
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.button-confirmar {
+  width: 11rem;
+  height: 4rem;
+  margin: 4rem 0 0 7rem;
+  border-radius: 1rem;
+  background-color: var(--purplish-blue);
+  color: var(--alabaster);
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-color: transparent;
 }
 
 .icone-cartao {
@@ -217,7 +235,7 @@ body {
   transition: .4s;
 }
 
-input:checked+ .slider {
+input:checked+.slider {
   /* background-color: #21f398; */
 }
 
@@ -239,10 +257,130 @@ input:checked+.slider:before {
   border-radius: 50%;
 }
 
+.checkbox-complementos {
+  padding: 2rem 0 0 1.5rem;
+  border: solid 0.2rem var(--light-gray);
+  border-radius: 0.8rem 0 0 0.8rem;
+  border-style: solid none solid solid;
+}
 
+.checkbox-complementos input {
+  width: 1.5rem;
+}
 
+.tit-complemento {
+  padding: 1.6rem 0 0 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--marine-blue);
+  border: solid 0.2rem var(--light-gray);
+  border-style: solid none none none;
+}
 
+.info-complemento {
+  padding: 0.2rem 0 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--cool-gray);
+  border: solid 0.2rem var(--light-gray);
+  border-style: none none solid none;
+}
 
+.valor-complemento {
+  padding: 2.4rem 0 0 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--pastel-blue);
+  border: solid 0.2rem var(--light-gray);
+  border-radius: 0 0.8rem 0.8rem 0;
+  border-style: solid solid solid none;
+}
+
+.plano-escolhido {
+  padding: 2rem 0 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--marine-blue);
+  background-color: var(--magnolia);
+  border-radius: 0.8rem 0 0 0;
+}
+
+.mudar {
+  padding: 0 0 0 2rem;
+  font-size: 1.2rem;
+  color: var(--cool-gray);
+  text-decoration: underline;
+  background-color: var(--magnolia);
+}
+
+.valor-plano {
+  padding: 2.6rem 0 0 7rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--marine-blue);
+  background-color: var(--magnolia);
+  border-radius: 0 0.8rem 0 0;
+}
+
+.complemento-final {
+  padding: 1rem 0 0 2rem;
+  font-size: 1.2rem;
+  color: var(--cool-gray);
+  background-color: var(--magnolia);
+}
+
+.valor-compl-final {
+  padding: 1rem 0 0 8rem;
+  font-size: 1.2rem;
+  color: var(--cool-gray);
+  background-color: var(--magnolia);
+}
+
+#complemento-final1,
+#valor-compl-final1 {
+  border-top: solid 0.2rem;
+  border-color: var(--light-gray);
+}
+
+#complemento-final3 {
+  border-radius: 0 0 0 0.8rem;
+}
+
+#valor-compl-final3 {
+  border-radius: 0 0 0.8rem 0;
+}
+
+.total-final {
+  padding: 2.5rem 0 0 2rem;
+  font-size: 1.2rem;
+  color: var(--cool-gray);
+}
+
+.valor-final {
+  padding: 2.5rem 0 0 5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--purplish-blue);
+}
+
+.icone-final {
+  margin: 10rem auto;
+}
+
+.obrigado {
+  margin: auto;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--marine-blue);
+}
+
+.agradecimento {
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: var(--cool-gray);
+}
 
 
 .attribution {

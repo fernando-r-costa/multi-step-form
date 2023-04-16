@@ -32,7 +32,7 @@
         <div class="titulo" id="titulo-etapa2">Etapa 2</div>
         <div class="info" id="info-etapa2">Selecione um plano </div>
         <div class="titulo" id="titulo-etapa3">Etapa 3</div>
-        <div class="info" id="info-etapa3">Adicionais</div>
+        <div class="info" id="info-etapa3">Complementos</div>
         <div class="titulo" id="titulo-etapa4">Etapa 4</div>
         <div class="info" id="info-etapa4">Resumo</div>
       </div>
@@ -45,13 +45,13 @@
         <div class="info-form" id="info-form-etapa1">Por favor informe seu nome, email e telefone.</div>
         <div class="tit-input" id="nome-form-etapa1">Nome</div>
         <div class="erro-input" id="erro-nome-form-etapa1"></div>
-        <input type="text" class="campo-input" id="input-nome-form-etapa1" value="Stephen King">
+        <input type="text" class="campo-input" id="input-nome-form-etapa1" placeholder="Stephen King">
         <div class="tit-input" id="email-form-etapa1">Email</div>
         <div class="erro-input" id="erro-email-form-etapa1"></div>
-        <input type="email" class="campo-input" id="input-email-form-etapa1" value="stephenking@lorem.com">
+        <input type="email" class="campo-input" id="input-email-form-etapa1" placeholder="stephenking@lorem.com">
         <div class="tit-input" id="telefone-form-etapa1">Telefone</div>
         <div class="erro-input" id="erro-telefone-form-etapa1"></div>
-        <input type="tel" class="campo-input" id="input-telefone-form-etapa1" value="(12)12345-7890">
+        <input type="tel" class="campo-input" id="input-telefone-form-etapa1" placeholder="(12)12345-7890">
         <button class="button-proxima" id="but-prox-etapa1">Próxima</button>
       </div>
 
@@ -86,52 +86,66 @@
         <button class="button-proxima" id="but-prox-etapa2">Próxima</button>
       </div>
 
-      <!-- Step 3 start -->
+      <div class="formulario-etapa3">
+        <div class="tit-form" id="tit-form-etapa3">Escolha complementos</div>
+        <div class="info-form" id="info-form-etapa3">Os complementos ajudam a aprimorar sua experiência de jogo.</div>
+        <div class="container-complementos">
+          <div class="complementos">
+            <div class="checkbox-complementos" id="checkbox-complementos1">
+              <input type="checkbox">
+            </div>
+            <div class="tit-complemento" id="tit-complemento1">Serviço on-line</div>
+            <div class="info-complemento" id="info-complemento1">Acesso a jogos multiplayer</div>
+            <div class="valor-complemento" id="valor-complemento1">R$10,00/ano</div>
+            <div class="checkbox-complementos" id="checkbox-complementos2">
+              <input type="checkbox">
+            </div>
+            <div class="tit-complemento" id="tit-complemento2">Armazenamento maior</div>
+            <div class="info-complemento" id="info-complemento2">1 TB extra de armazenamento na nuvem</div>
+            <div class="valor-complemento" id="valor-complemento2">R$20,00/ano</div>
+            <div class="checkbox-complementos" id="checkbox-complementos3">
+              <input type="checkbox">
+            </div>
+            <div class="tit-complemento" id="tit-complemento3">Perfil personalizável</div>
+            <div class="info-complemento" id="info-complemento3">Tema personalizado em seu perfil</div>
+            <div class="valor-complemento" id="valor-complemento3">R$20,00/ano</div>
+          </div>
+        </div>
+        <button class="button-voltar" id="but-voltar-etapa3">Voltar</button>
+        <button class="button-proxima" id="but-prox-etapa3">Próxima</button>
+      </div>
 
-      <!-- Pick add-ons
-      Add-ons help enhance your gaming experience.
+      <div class="formulario-etapa4">
+        <div class="tit-form" id="tit-form-etapa4">Terminando</div>
+        <div class="info-form" id="info-form-etapa4">Verifique se tudo está ok antes de confirmar.</div>
+        <div class="container-final">
+          <div class="final">
+            <div class="plano-escolhido" id="plano-escolhido">Arcade (Anual)</div>
+            <div class="mudar" id="mudar">Mudar</div>
+            <div class="valor-plano" id="valor-plano">R$90,00/ano</div>
+            <div class="complemento-final" id="complemento-final1">Serviço on-line</div>
+            <div class="valor-compl-final" id="valor-compl-final1">+R$10,00/ano</div>
+            <div class="complemento-final" id="complemento-final2">Armazenamento maior</div>
+            <div class="valor-compl-final" id="valor-compl-final2">+R$20,00/ano</div>
+            <div class="complemento-final" id="complemento-final3">Perfil personalizável</div>
+            <div class="valor-compl-final" id="valor-compl-final3">+R$20,00/ano</div>
+            <div class="total-final" id="total-final">Total (por ano) </div>
+            <div class="valor-final" id="valor-final">R$120,00/ano </div>
+          </div>
+        </div>
+        <button class="button-voltar" id="but-voltar-etapa4">Voltar</button>
+        <button class="button-confirmar" id="but-confirmar">Confirmar</button>
+      </div>
 
-      Online service
-      Access to multiplayer games
-      +$1/mo
-
-      Larger storage
-      Extra 1TB of cloud save
-      +$2/mo
-
-      Customizable Profile
-      Custom theme on your profile
-      +$2/mo
-
-      Go Back
-      Next Step -->
-
-      <!-- Step 3 end -->
-
-      <!-- Step 4 start -->
-
-      <!-- Finishing up
-      Double-check everything looks OK before confirming. -->
-
-      <!-- Dynamically add subscription and add-on selections here -->
-
-      <!-- Total (per month/year)
-
-      Go Back
-      Confirm -->
-
-      <!-- Step 4 end -->
-
-      <!-- Step 5 start -->
-
-      <!-- Thank you!
-
-      Thanks for confirming your subscription! We hope you have fun
-      using our platform. If you ever need support, please feel free
-      to email us at support@loremgaming.com. -->
-
-      <!-- Step 5 end -->
+      <div class="formulario-etapa5">
+        <div class="icone-final"><img src="./assets/images/icon-thank-you.svg"></div>
+        <div class="obrigado">Obrigado!</div>
+        <div class="agradecimento">Obrigado por confirmar sua inscrição! Esperamos que você se divirta usando nossa
+          plataforma. Se você precisar de suporte, sinta-se à vontade para nos enviar um e-mail em
+          support@loremgaming.com. </div>
+      </div>
     </div>
+
   </div>
 
 </body>
@@ -140,5 +154,7 @@
   <div class="attribution">Coded by <a href="https://www.linkedin.com/in/fernando-r-costa/"><img
         src="./assets/images/FRC.gif"></a>
 </footer>
+
+<script src="./assets/script/script.js"></script>
 
 </html>
