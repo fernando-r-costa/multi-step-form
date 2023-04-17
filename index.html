@@ -51,7 +51,7 @@
         <input type="email" class="campo-input" id="input-email-form-etapa1" placeholder="stephenking@lorem.com">
         <div class="tit-input" id="telefone-form-etapa1">Telefone</div>
         <div class="erro-input" id="erro-telefone-form-etapa1"></div>
-        <input type="tel" class="campo-input" id="input-telefone-form-etapa1" placeholder="(12)12345-7890">
+        <input type="tel" class="campo-input" id="input-telefone-form-etapa1" placeholder="(xx) xxxxx-xxxx">
         <button class="button-proxima" id="but-prox-etapa1">Próxima</button>
       </div>
 
@@ -60,24 +60,24 @@
         <div class="info-form" id="info-form-etapa2">Você tem a opção de pagamento mensal ou anual.</div>
         <div class="container-cartoes">
           <div class="cartoes">
-            <div class="icone-cartao" id="icone-cartao1"><img src="./assets/images/icon-arcade.svg"></div>
+            <div class="icone-cartao" id="icone-cartao1" onclick="destacaCartao(1, 2, 3)"><img src="./assets/images/icon-arcade.svg"></div>
             <div class="tit-cartao" id="tit-cartao1">Arcade</div>
             <div class="valor-cartao" id="valor-cartao1">R$90,00/ano</div>
             <div class="brinde-cartao" id="brinde-cartao1">2 meses grátis</div>
-            <div class="icone-cartao" id="icone-cartao2"><img src="./assets/images/icon-advanced.svg"></div>
+            <div class="icone-cartao" id="icone-cartao2" onclick="destacaCartao(2, 1, 3)""><img src="./assets/images/icon-advanced.svg"></div>
             <div class="tit-cartao" id="tit-cartao2">Advanced</div>
             <div class="valor-cartao" id="valor-cartao2">R$120,00/ano</div>
             <div class="brinde-cartao" id="brinde-cartao2">2 meses grátis</div>
-            <div class="icone-cartao" id="icone-cartao3"><img src="./assets/images/icon-pro.svg"></div>
+            <div class="icone-cartao" id="icone-cartao3" onclick="destacaCartao(3, 2, 1)""><img src="./assets/images/icon-pro.svg"></div>
             <div class="tit-cartao" id="tit-cartao3">Pro</div>
             <div class="valor-cartao" id="valor-cartao3">R$150,00/ano</div>
             <div class="brinde-cartao" id="brinde-cartao3">2 meses grátis</div>
           </div>
         </div>
         <div class="chave-pagamento">
-          <label class="label-switch" id="label-switch-mensal">Mensal</label>
+          <label class="label-switch-sel" id="label-switch-mensal">Mensal</label>
           <label class="switch">
-            <input type="checkbox" id="input-switch">
+            <input type="checkbox" id="input-switch" onclick="trocaPeriodo()">
             <span class="slider round"></span>
           </label>
           <label class="label-switch" id="label-switch-anual">Anual</label>
@@ -155,6 +155,7 @@
         src="./assets/images/FRC.gif"></a>
 </footer>
 
-<script src="./assets/script/script.js"></script>
+<script src="./assets/script/script-etapa1.js"></script>
+<script src="./assets/script/script-etapa2.js"></script>
 
 </html>

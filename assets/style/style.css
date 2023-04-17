@@ -149,11 +149,19 @@ body {
   border-color: transparent;
 }
 
+.button-confirmar, .button-proxima, .button-voltar:hover {
+  cursor: pointer;
+}
+
 .icone-cartao {
   padding: 1rem 0 0 1rem;
   border: solid 0.2rem var(--light-gray);
   border-radius: 0.8rem 0.8rem 0 0;
   border-style: solid solid none solid;
+}
+
+.icone-cartao:hover {
+  cursor: pointer;
 }
 
 .tit-cartao {
@@ -174,12 +182,50 @@ body {
 }
 
 .brinde-cartao {
-  color: var(--marine-blue);
+  /* color: var(--marine-blue); */
+  color: transparent;
   padding: 0 0 0 1rem;
   font-weight: 700;
   border: solid 0.2rem var(--light-gray);
   border-radius: 0 0 0.8rem 0.8rem;
   border-style: none solid solid solid;
+}
+
+.icone-cartao-sel {
+  background-color: var(--magnolia);
+  border: solid 0.2rem var(--pastel-blue);
+  border-style: solid solid none solid;
+  padding: 1rem 0 0 1rem;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.tit-cartao-sel {
+  background-color: var(--magnolia);
+  border: solid 0.2rem var(--pastel-blue);
+  border-style: none solid none solid;
+  color: var(--marine-blue);
+  padding: 0 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.valor-cartao-sel {
+  background-color: var(--magnolia);
+  border: solid 0.2rem var(--pastel-blue);
+  border-style: none solid none solid;
+  color: var(--cool-gray);
+  padding: 0 0 0 1rem;
+  font-size: 1.2rem;
+}
+
+.brinde-cartao-sel {
+  background-color: var(--magnolia);
+  border: solid 0.2rem var(--pastel-blue);
+  border-style: none solid solid solid;
+  color: transparent;
+  padding: 0 0 0 1rem;
+  font-weight: 700;
+  border-radius: 0 0 0.8rem 0.8rem;
 }
 
 .chave-pagamento {
@@ -196,6 +242,13 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--cool-gray);
+}
+
+.label-switch-sel {
+  padding: 0 2.2rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--marine-blue);
 }
 
 .switch {
