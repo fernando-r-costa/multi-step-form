@@ -1,12 +1,12 @@
 const formEtapa1 = document.querySelector(".formulario-etapa1");
 const selEtapa1 = document.getElementById("selecao-etapa1");
+const btnProx1 = document.getElementById("but-prox-etapa1");
 const nome = document.getElementById("input-nome-form-etapa1");
 const email = document.getElementById("input-email-form-etapa1");
 const fone = document.getElementById("input-telefone-form-etapa1");
 const erroNome = document.getElementById("erro-nome-form-etapa1");
 const erroEmail = document.getElementById("erro-email-form-etapa1");
 const erroFone = document.getElementById("erro-telefone-form-etapa1");
-const btnProx1 = document.getElementById("but-prox-etapa1");
 const campo = [nome, email, fone];
 const erro = [erroNome, erroEmail, erroFone];
 

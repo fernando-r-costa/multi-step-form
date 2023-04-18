@@ -41,10 +41,11 @@ Os usuários devem ser capazes de:
 - [x] Etapa 4
 - [x] Final
 - [x] Desktop-design
-- [ ] Validação
+- [x] Mudança valores
+- [x] Validação
 - [ ] Estados-ativos
-- [ ] Mudança valores
 - [ ] Mobile-design
+- [ ] Refatorar
 
 ## Autor
 

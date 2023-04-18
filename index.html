@@ -60,24 +60,24 @@
         <div class="info-form" id="info-form-etapa2">Você tem a opção de pagamento mensal ou anual.</div>
         <div class="container-cartoes">
           <div class="cartoes">
-            <div class="icone-cartao" id="icone-cartao1" onclick="destacaCartao(1, 2, 3)"><img src="./assets/images/icon-arcade.svg"></div>
+            <div class="icone-cartao" id="icone-cartao1"><img src="./assets/images/icon-arcade.svg"></div>
             <div class="tit-cartao" id="tit-cartao1">Arcade</div>
-            <div class="valor-cartao" id="valor-cartao1">R$90,00/ano</div>
+            <div class="valor-cartao" id="valor-cartao1"></div>
             <div class="brinde-cartao" id="brinde-cartao1">2 meses grátis</div>
-            <div class="icone-cartao" id="icone-cartao2" onclick="destacaCartao(2, 1, 3)""><img src="./assets/images/icon-advanced.svg"></div>
+            <div class="icone-cartao" id="icone-cartao2"""><img src="./assets/images/icon-advanced.svg"></div>
             <div class="tit-cartao" id="tit-cartao2">Advanced</div>
-            <div class="valor-cartao" id="valor-cartao2">R$120,00/ano</div>
+            <div class="valor-cartao" id="valor-cartao2"></div>
             <div class="brinde-cartao" id="brinde-cartao2">2 meses grátis</div>
-            <div class="icone-cartao" id="icone-cartao3" onclick="destacaCartao(3, 2, 1)""><img src="./assets/images/icon-pro.svg"></div>
+            <div class="icone-cartao" id="icone-cartao3"><img src="./assets/images/icon-pro.svg"></div>
             <div class="tit-cartao" id="tit-cartao3">Pro</div>
-            <div class="valor-cartao" id="valor-cartao3">R$150,00/ano</div>
+            <div class="valor-cartao" id="valor-cartao3"></div>
             <div class="brinde-cartao" id="brinde-cartao3">2 meses grátis</div>
           </div>
         </div>
         <div class="chave-pagamento">
           <label class="label-switch-sel" id="label-switch-mensal">Mensal</label>
           <label class="switch">
-            <input type="checkbox" id="input-switch" onclick="trocaPeriodo()">
+            <input type="checkbox" id="input-switch">
             <span class="slider round"></span>
           </label>
           <label class="label-switch" id="label-switch-anual">Anual</label>
@@ -91,24 +91,27 @@
         <div class="info-form" id="info-form-etapa3">Os complementos ajudam a aprimorar sua experiência de jogo.</div>
         <div class="container-complementos">
           <div class="complementos">
-            <div class="checkbox-complementos" id="checkbox-complementos1">
-              <input type="checkbox">
-            </div>
+            <label class="checkbox-complementos" id="checkbox-complementos1">
+              <input type="checkbox" id="input-complemento1">
+              <span></span>
+            </label>
             <div class="tit-complemento" id="tit-complemento1">Serviço on-line</div>
             <div class="info-complemento" id="info-complemento1">Acesso a jogos multiplayer</div>
-            <div class="valor-complemento" id="valor-complemento1">R$10,00/ano</div>
-            <div class="checkbox-complementos" id="checkbox-complementos2">
-              <input type="checkbox">
-            </div>
+            <div class="valor-complemento" id="valor-complemento1"></div>
+            <label class="checkbox-complementos" id="checkbox-complementos2">
+              <input type="checkbox" id="input-complemento2">
+              <span></span>
+            </label>
             <div class="tit-complemento" id="tit-complemento2">Armazenamento maior</div>
             <div class="info-complemento" id="info-complemento2">1 TB extra de armazenamento na nuvem</div>
-            <div class="valor-complemento" id="valor-complemento2">R$20,00/ano</div>
-            <div class="checkbox-complementos" id="checkbox-complementos3">
-              <input type="checkbox">
-            </div>
+            <div class="valor-complemento" id="valor-complemento2"></div>
+            <label class="checkbox-complementos" id="checkbox-complementos3">
+              <input type="checkbox" id="input-complemento3">
+              <span></span>
+            </label>
             <div class="tit-complemento" id="tit-complemento3">Perfil personalizável</div>
             <div class="info-complemento" id="info-complemento3">Tema personalizado em seu perfil</div>
-            <div class="valor-complemento" id="valor-complemento3">R$20,00/ano</div>
+            <div class="valor-complemento" id="valor-complemento3"></div>
           </div>
         </div>
         <button class="button-voltar" id="but-voltar-etapa3">Voltar</button>
@@ -120,15 +123,15 @@
         <div class="info-form" id="info-form-etapa4">Verifique se tudo está ok antes de confirmar.</div>
         <div class="container-final">
           <div class="final">
-            <div class="plano-escolhido" id="plano-escolhido">Arcade (Anual)</div>
+            <div class="plano-escolhido" id="plano-escolhido"></div>
             <div class="mudar" id="mudar">Mudar</div>
-            <div class="valor-plano" id="valor-plano">R$90,00/ano</div>
+            <div class="valor-plano" id="valor-plano"></div>
             <div class="complemento-final" id="complemento-final1">Serviço on-line</div>
-            <div class="valor-compl-final" id="valor-compl-final1">+R$10,00/ano</div>
+            <div class="valor-compl-final" id="valor-compl-final1"></div>
             <div class="complemento-final" id="complemento-final2">Armazenamento maior</div>
-            <div class="valor-compl-final" id="valor-compl-final2">+R$20,00/ano</div>
+            <div class="valor-compl-final" id="valor-compl-final2"></div>
             <div class="complemento-final" id="complemento-final3">Perfil personalizável</div>
-            <div class="valor-compl-final" id="valor-compl-final3">+R$20,00/ano</div>
+            <div class="valor-compl-final" id="valor-compl-final3"></div>
             <div class="total-final" id="total-final">Total (por ano) </div>
             <div class="valor-final" id="valor-final">R$120,00/ano </div>
           </div>
@@ -157,5 +160,7 @@
 
 <script src="./assets/script/script-etapa1.js"></script>
 <script src="./assets/script/script-etapa2.js"></script>
+<script src="./assets/script/script-etapa3.js"></script>
+<script src="./assets/script/script-etapa4.js"></script>
 
 </html>

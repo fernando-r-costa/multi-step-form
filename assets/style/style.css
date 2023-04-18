@@ -149,7 +149,9 @@ body {
   border-color: transparent;
 }
 
-.button-confirmar, .button-proxima, .button-voltar:hover {
+.button-confirmar,
+.button-proxima,
+.button-voltar:hover {
   cursor: pointer;
 }
 
@@ -288,14 +290,6 @@ body {
   transition: .4s;
 }
 
-input:checked+.slider {
-  /* background-color: #21f398; */
-}
-
-/* input:focus+.slider {
-  box-shadow: 0 0 1px #2196F3;
-} */
-
 input:checked+.slider:before {
   -webkit-transform: translateX(1.8rem);
   -ms-transform: translateX(1.8rem);
@@ -317,8 +311,25 @@ input:checked+.slider:before {
   border-style: solid none solid solid;
 }
 
-.checkbox-complementos input {
-  width: 1.5rem;
+.checkbox-complementos span, .checkbox-complementos-sel span {
+  width: 1.3rem;
+  height: 1.3rem;
+  display: block;
+  background-color: var(--alabaster);
+  border: 1px solid var(--light-gray);
+  border-radius: 0.3rem;
+}
+
+.checkbox-complementos input, .checkbox-complementos-sel input {
+  display: none;
+}
+
+.checkbox-complementos input:checked+span, .checkbox-complementos-sel input:checked+span {
+  border: 1px solid var(--purplish-blue);
+  background-color: var(--purplish-blue);
+  background-image: url(../images/icon-checkmark.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tit-complemento {
@@ -349,6 +360,45 @@ input:checked+.slider:before {
   border-style: solid solid solid none;
 }
 
+.checkbox-complementos-sel {
+  background-color: var(--magnolia);
+  padding: 2rem 0 0 1.5rem;
+  border: solid 0.2rem var(--purplish-blue);
+  border-radius: 0.8rem 0 0 0.8rem;
+  border-style: solid none solid solid;
+}
+
+.tit-complemento-sel {
+  background-color: var(--magnolia);
+  padding: 1.6rem 0 0 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--marine-blue);
+  border: solid 0.2rem var(--purplish-blue);
+  border-style: solid none none none;
+}
+
+.info-complemento-sel {
+  background-color: var(--magnolia);
+  padding: 0.2rem 0 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--cool-gray);
+  border: solid 0.2rem var(--purplish-blue);
+  border-style: none none solid none;
+}
+
+.valor-complemento-sel {
+  background-color: var(--magnolia);
+  padding: 2.4rem 0 0 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--pastel-blue);
+  border: solid 0.2rem var(--purplish-blue);
+  border-radius: 0 0.8rem 0.8rem 0;
+  border-style: solid solid solid none;
+}
+
 .plano-escolhido {
   padding: 2rem 0 0 2rem;
   font-size: 1.5rem;
@@ -359,6 +409,7 @@ input:checked+.slider:before {
 }
 
 .mudar {
+  cursor: pointer;
   padding: 0 0 0 2rem;
   font-size: 1.2rem;
   color: var(--cool-gray);
