@@ -108,10 +108,17 @@ body {
   border: solid 0.2rem var(--light-gray);
   color: var(--marine-blue);
   font-weight: 600;
+  cursor: pointer;
+  outline: transparent;
 }
 
 .campo-input::placeholder {
   color: var(--light-gray);
+}
+
+.campo-input:focus {
+  border-color: var(--purplish-blue);
+  cursor: pointer;
 }
 
 .button-proxima {
@@ -149,10 +156,14 @@ body {
   border-color: transparent;
 }
 
-.button-confirmar,
-.button-proxima,
+.button-confirmar:hover,
+.button-proxima:hover {
+cursor: pointer;
+opacity: 85%;
+}
+
 .button-voltar:hover {
-  cursor: pointer;
+  color: var(--marine-blue);
 }
 
 .icone-cartao {
@@ -332,6 +343,11 @@ input:checked+.slider:before {
   background-position: center;
 }
 
+.checkbox-complementos span:hover, .checkbox-complementos-sel span:hover {
+  cursor: pointer;
+  border-color: var(--purplish-blue);
+}
+
 .tit-complemento {
   padding: 1.6rem 0 0 0;
   font-size: 1.1rem;
@@ -409,12 +425,16 @@ input:checked+.slider:before {
 }
 
 .mudar {
-  cursor: pointer;
   padding: 0 0 0 2rem;
   font-size: 1.2rem;
   color: var(--cool-gray);
   text-decoration: underline;
   background-color: var(--magnolia);
+}
+
+.mudar:hover{
+  cursor: pointer;
+  color: var(--purplish-blue);
 }
 
 .valor-plano {

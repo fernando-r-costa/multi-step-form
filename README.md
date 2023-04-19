@@ -43,7 +43,7 @@ Os usuários devem ser capazes de:
 - [x] Desktop-design
 - [x] Mudança valores
 - [x] Validação
-- [ ] Estados-ativos
+- [x] Estados-ativos
 - [ ] Mobile-design
 - [ ] Refatorar
 

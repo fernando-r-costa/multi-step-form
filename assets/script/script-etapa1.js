@@ -11,44 +11,46 @@ const campo = [nome, email, fone];
 const erro = [erroNome, erroEmail, erroFone];
 
 
-function mostraErro(erro, msgErro) {
+function mostraErro(erro, msgErro, campo) {
     erro.innerHTML = msgErro;
+    campo.style.borderColor = "var(--strawberry-red)";
 }
 
-function limpaErro(erro) {
+function limpaErro(erro, campo) {
     erro.innerHTML = "ok";
     erro.style.display = "none";
+    campo.style.borderColor = "var(--light-gray)";
 }
 
 function verificaVazio(campo, erro) {
     if (campo.value == "") {
-        mostraErro(erro, "Este campo é obrigatório");
+        mostraErro(erro, "Este campo é obrigatório", campo);
     } else {
-        limpaErro(erro);
+        limpaErro(erro, campo);
     }
 }
 
 function verificaNome(campo, erro) {
     if (campo.value.length < 3) {
-        mostraErro(erro, "Nome muito pequeno");
+        mostraErro(erro, "Nome muito pequeno", campo);
     } else {
-        limpaErro(erro);
+        limpaErro(erro, campo);
     }
 }
 
 function verificaEmail(campo, erro) {
     if (/^[\w+.]+@\w+\.\w{2,}(?:\.\w{2})?$/.test(campo.value) == true) {
-        limpaErro(erro);
+        limpaErro(erro, campo);
     } else {
-        mostraErro(erro, "Digite um e-mail válido")
+        mostraErro(erro, "Digite um e-mail válido", campo)
     }
 }
 
 function verificaTelefone(campo, erro) {
     if (/^\([0-9]{2}\) [0-9]?[0-9]{4}-[0-9]{4}$/.test(campo.value) == true) {
-        limpaErro(erro);
+        limpaErro(erro, campo);
     } else {
-        mostraErro(erro, "Digite um telefone válido")
+        mostraErro(erro, "Digite um telefone válido", campo)
     }
 }
 
