@@ -27,7 +27,23 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![](./assets/screenshots/screenshot-1681910304874.jpeg)
+
+![](./assets/screenshots/screenshot-1681910313686.jpeg)
+
+![](./assets/screenshots/screenshot-1681910354203.jpeg)
+
+![](./assets/screenshots/screenshot-1681910410337.jpeg)
+
+![](./assets/screenshots/screenshot-1681910420827.jpeg)
+
+![](./assets/screenshots/screenshot-1681910429208.jpeg)
+
+![](./assets/screenshots/screenshot-1681910435907.jpeg)
+
+![](./assets/screenshots/screenshot-1681910444164.jpeg)
+
+![](./assets/screenshots/screenshot-1681910449767.jpeg)
 
 ### Links
 
@@ -45,7 +61,6 @@ Os usuários devem ser capazes de:
 - [x] Validação
 - [x] Estados-ativos
 - [ ] Mobile-design
-- [ ] Refatorar
 
 ## Autor
 
