@@ -99,6 +99,6 @@ atualizaComplementos();
 trocaPeriodo();
 destacaCartao(1, 2, 3);
 montaResumo();
-btnConfirmar.addEventListener("click", function () { trocaFormulario(formEtapa4, formEtapa5) });
+btnConfirmar.addEventListener("click", function () { trocaFormulario(formEtapa4, formEtapa5), salvarDados()});
 btnVoltar4.addEventListener("click", function () { trocaFormulario(formEtapa4, formEtapa3); trocaSelecao(selEtapa4, selEtapa3); });
 mudarPlano.addEventListener("click", function () { trocaFormulario(formEtapa4, formEtapa2); trocaSelecao(selEtapa4, selEtapa2); });

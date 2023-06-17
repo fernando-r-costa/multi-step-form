@@ -491,6 +491,24 @@ input:checked+.slider:before {
   margin: 10rem auto;
 }
 
+#salvando {
+  width: 5rem;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.salvo {
+  display: none;
+}
+
 .obrigado {
   margin: auto;
   font-size: 2.2rem;
